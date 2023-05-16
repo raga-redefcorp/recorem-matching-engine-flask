@@ -5,7 +5,9 @@ from routers.prediction import router
 # loads env variables
 load_dotenv()
 
-app = Flask(__name__)
+application = Flask(__name__)
+
+app = application
 
 # Register the router with the Flask application
 app.register_blueprint(router)
