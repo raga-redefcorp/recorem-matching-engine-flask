@@ -1,6 +1,4 @@
 Flask
-Werkzeug
-markupsafe
 python-dotenv
 scikit-learn
 pandas
